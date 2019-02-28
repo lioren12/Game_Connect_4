@@ -13,6 +13,9 @@ ConnectToClientsThread
 
 Work flow:
 -> Server is up and wait for first client to connect
+
 -> First client connect and server approves
+
 -> Second client connect and server approves
+
 * Any other connections will be failed with error message.
