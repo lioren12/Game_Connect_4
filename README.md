@@ -13,10 +13,14 @@ ConnectToClientsThread
 
 # Work flow:
 
--> Server is up and wait for first client to connect
+-> Server is up and wait for first client to connect.
 
--> First client connects and server approves
+-> First client connects and server approves.
 
--> Second client connects and server approves
+-> Second client connects and server approves.
 
 * Any other connections will be failed with error message.
+
+-> Game started.
+
+-> When game ends, both players are disconnected and the server waits for new players to connect.
