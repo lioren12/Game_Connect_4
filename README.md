@@ -11,7 +11,8 @@ UserInterfaceThread
 GameThread * 2 (for each player)
 ConnectToClientsThread
 
-Work flow:
+# Work flow:
+
 -> Server is up and wait for first client to connect
 
 -> First client connect and server approves
